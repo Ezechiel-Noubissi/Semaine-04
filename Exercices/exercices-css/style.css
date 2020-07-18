@@ -1,0 +1,46 @@
+a.google {
+  color: crimson;
+}
+
+a#youtube {
+  color: aqua;
+}
+
+a.sirius {
+  color: yellow;
+}
+
+a#netflix {
+  color: brown;
+}
+
+a.amazon:hover {
+  color: rgb(89, 142, 9);
+}
+
+a:hover {
+  text-transform: uppercase;
+}
+
+a::before {
+  content: '*';
+}
+
+a::after {
+  content: '*';
+}
+
+.rgb {
+  background-color: rgb(89, 142, 9);
+}
+
+table {
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px;
+  border-style: solid;
+  border-color: sienna;
+}

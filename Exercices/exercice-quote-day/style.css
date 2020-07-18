@@ -1,3 +1,56 @@
-body{
-  width: auto;
+body {
+  background-color: #e5e5e5;
+}
+
+.thirdCircle {
+  background-color: #72919b;
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  text-align: center;
+}
+
+.secondCircle {
+  background-color: #72919b;
+  width: 600px;
+  height: 600px;
+  border-radius: 100%;
+}
+
+.secondCircle {
+  position: relative;
+  left: 400px;
+}
+
+#circle3 {
+  position: relative;
+  left: 1020px;
+}
+.disclamer {
+  display: flex;
+  text-transform: capitalize;
+  position: relative;
+  left: 20px;
+}
+#author {
+  position: relative;
+  top: 100px;
+}
+h3 {
+  position: relative;
+  top: 30px;
+}
+#quotes {
+  position: relative;
+  left: 38px;
+  top: 300px;
+}
+#alert {
+  position: relative;
+  left: 300px;
+  top: 300px;
+}
+h1 {
+  position: relative;
+  top: 120px;
 }

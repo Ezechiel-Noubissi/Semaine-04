@@ -7,3 +7,25 @@
 // Affichez dans une box alert le résultat de la méthode math random, dont l'entier à ne pas dépassé est 16
 
 // A l'aide de la méthode fetch(), contactez cette API via cette url: https://type.fit/api/quotes, aidez vous de l'exemple donné dans la théorie. D'abord traitez la réponse en utilisant la méthode .json(), ensuite affichez le contenu de la réponse dans un console.log
+
+const getrandomQuotes = () => {
+  let randomNumber = Math.floor(Math.random() * Math.floor(1643));
+  fetch('https://type.fit/api/quotes')
+    .then(response => {
+      return response.json();
+    })
+    .then(response => {
+      let data = response[randomNumber];
+      console.log(data);
+      document.getElementById('quote').textContent = data.text;
+      if (data.author === null || data.author === undefined) {
+        document.getElementById('author').textContent = "l'auteur est inconnu";
+      } else {
+        document.getElementById('author').textContent = data.author;
+      }
+    });
+};
+getrandomQuotes();
+document.getElementById('alert').addEventListener('click', () => {
+  getrandomQuotes();
+});

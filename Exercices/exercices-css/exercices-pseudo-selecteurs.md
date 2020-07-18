@@ -12,24 +12,23 @@ Placez tous les exercices l'un à la suite des autres dans une seule page `index
 
 Créez des liens et styliser les en suivant les instructions suivantes:
 
-* Créez 5 liens vers vos 5 sites préférés
-* Chaque lien doit avoir comme couleur par défaut une couleur prédominante/symbolisant votre site (youtube=rouge, facebook=bleu,...)
-* Chaque lien doit ensuite avoir un survol de couleur plus foncé et les lettres doivent apparaître toute en majuscules.
-* Chaque lien doit avoir un contenu qui s'affiche avant et après. Ce contenu doit être ">"(devant) et "<"(derrière)
+- Créez 5 liens vers vos 5 sites préférés
+- Chaque lien doit avoir comme couleur par défaut une couleur prédominante/symbolisant votre site (youtube=rouge, facebook=bleu,...)
+- Chaque lien doit ensuite avoir un survol de couleur plus foncé et les lettres doivent apparaître toute en majuscules.
+- Chaque lien doit avoir un contenu qui s'affiche avant et après. Ce contenu doit être ">"(devant) et "<"(derrière)
 
 ## Exercice 2
 
-* Copiez le code du tableau dans votre page.
-* Faites en sorte que le tableau prenne toute la largeur
-* Ajouter une bordure de `1px` de la couleur de votre choix sur les TableData et TableHeader. Mettez également un padding de `8px`
-* Sélectionnez les TableRow pair et ajoutez leurs un fond de couleur.
-* Faites de même pour les TableRow impair. Les deux couleurs doivent être suffisamment différentes pour distinguer chaque rangées.
-* Sélectionnez les TableRow et ajoutez un effet de survol qui change légèrement la couleur de fond
-* Sélectionnez les TableHeader et mettez un padding en haut et en bas de `12px`. Changez la couleur du fond.
+- Copiez le code du tableau dans votre page.
+- Faites en sorte que le tableau prenne toute la largeur
+- Ajouter une bordure de `1px` de la couleur de votre choix sur les TableData et TableHeader. Mettez également un padding de `8px`
+- Sélectionnez les TableRow pair et ajoutez leurs un fond de couleur.
+- Faites de même pour les TableRow impair. Les deux couleurs doivent être suffisamment différentes pour distinguer chaque rangées.
+- Sélectionnez les TableRow et ajoutez un effet de survol qui change légèrement la couleur de fond
+- Sélectionnez les TableHeader et mettez un padding en haut et en bas de `12px`. Changez la couleur du fond.
 
-```html
-<table id="gameOfTheYear">
-  <tr>
+<table id = "gameOfTheYear">
+<tr>
     <th>Title</th>
     <th>Plateforme</th>
     <th>Note</th>
